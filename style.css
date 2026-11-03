@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    overflow:hidden;
+    margin:0px;
+}
+body::-webkit-scrollbar
+{
+    display:none;
+}
+#scroll
+{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position:absolute;
+  border:none;
+  z-index:1;
+}
+.Car{
+  background:none;
+  display:flex;
+  position:absolute;
+  height:110px;
+  width:70px;
+  top:80%;
+  left:48.25%;
+  z-index: 2;
+  overflow-y: none;
+}
+#playbtn{
+  display:flex;
+  background: transparent;
+  background-color:transparent;
+  border-color: transparent;
+  position:fixed; 
+  left:34.167%;
+  cursor:pointer;
+  top:40%;
+  z-index :2;
+  color:rgb(190, 30, 185);
+  text-shadow:3px 3px 5px  hsl(240, 98%, 49%);
+  text-align: auto;
+}
+#reset{
+  height:400px;
+  display:none;
+  background: transparent;
+  background-color:transparent;
+  border-color: transparent;
+  position:fixed; 
+  left:37%;
+  cursor:pointer;
+  top:30%;
+  z-index :3;
+  color:rgb(196, 42, 67);
+  text-shadow:3px 3.5px 5px  hsla(240, 98%, 49%, 0.497);
+  text-align: center;
+}
+@keyframes scrollDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+   
+
+
+  
