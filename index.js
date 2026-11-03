@@ -4,7 +4,7 @@ const car =document.getElementById("Car");
 const Scroll=document.getElementById("scroll");
     let y=0;
     let x=0;
-    let movement=3;
+    let movement=3.5;
     let button=false;
 function display(event)
 {
